@@ -1,4 +1,3 @@
-
 import jieba
 
 #词典，每个词后方存储的是其词频，仅为示例，也可自行添加
@@ -81,5 +80,7 @@ class DAGDecode:
 
 sentence = "经常有意见分歧"
 dd = DAGDecode(sentence)
+dd.decode()
+print(dd.finish_path)
 dd.decode()
 print(dd.finish_path)
